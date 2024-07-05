@@ -53,101 +53,32 @@ npm run lint
 npm run lint:fix
 ```
 
-node app.ts
-Usage
-Explain how to use the application or library, including any environment variables that need to be set.
+#### Usage
 
-API Endpoints
-List and describe each API endpoint available in your application. Include details such as HTTP method, endpoint path, request parameters, request body (if applicable), and response format.
+Use postman or any other api testing tool for better understanding
+
+#### API Endpoints
+
+This application have two side. First one is Product base and second is Order related route.
 
 Example:
 
-GET /api/products: Retrieves a list of all products.
-POST /api/products: Creates a new product.
-...
-Testing
-Provide instructions for running tests if applicable.
+- **Retrieving a List of All Products**
 
-Contributing
-Guidelines for contributing to the project, including how to report issues and submit pull requests.
+  - Use the following API endpoint to retrieve a list of all products:
 
-License
-Specify the project's license information.
+    ```plaintext
+    GET/api/products
+    ```
 
-Example README Content
-Here’s an example of how you might structure some sections in your README file based on the details you provided:
+    This endpoint retrieves a comprehensive list of all products available in the system.
 
-markdown
-Copy code
+- **Retrieving a List of All Orders**
 
-# Product Backend Server
+  - Use the following API endpoint to retrieve a list of all products:
 
-This is a Node.js and Express application for managing products and orders.
+    ```plaintext
+    GET /api/orders
+    ```
 
-## Features
-
-- CRUD operations for products
-- Order management with MongoDB integration
-- Error handling and validation
-
-## Prerequisites
-
-- Node.js
-- npm or yarn
-- MongoDB
-
-## Getting Started
-
-### Installation
-
-```bash
-# Clone the repository
-git clone <repository-url>
-
-# Navigate into the project directory
-cd product-backend
-
-# Install dependencies
-npm install
-Running the Server
-bash
-Copy code
-# Start the server
-npm start
-# or
-node app.ts
-Usage
-Set environment variables if necessary (e.g., MongoDB URI).
-Use API endpoints to manage products and orders.
-API Endpoints
-GET /api/products: Retrieves a list of all products.
-POST /api/products: Creates a new product.
-GET /api/products/:productId: Retrieves a single product by ID.
-PUT /api/products/:productId: Updates a product by ID.
-DELETE /api/products/:productId: Deletes a product by ID.
-POST /api/orders: Creates a new order.
-Testing
-No specific testing instructions provided.
-
-Contributing
-Feel free to contribute to this project. Submit pull requests and report issues.
-
-License
-This project is licensed under the MIT License - see the LICENSE file for details.
-
-vbnet
-Copy code
-
-### Customization
-
-- **Features**: Update with specific features of your application.
-- **Endpoints**: List all endpoints available in your API, describing each one clearly.
-- **Prerequisites**: Include any specific instructions or configurations users need before running your project.
-- **Testing**: Add details on how to run tests if your project includes them.
-- **Contributing**: Specify guidelines for contributing to your project.
-- **License**: Update with your chosen license and any additional information.
-
-By following this structured approach, you'll provide comprehensive documentation that helps users understand and effectively use your Node.js and Express project. Adjust and expand sections as needed to suit the complexity and specifics of your application.
-
-
-```
+    This endpoint retrieves a comprehensive list of all orders available in the system.
