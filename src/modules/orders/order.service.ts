@@ -1,6 +1,7 @@
 import { Product } from "../products/product.model";
 import { TOrder } from "./order.interface";
 import { Order } from "./order.model";
+import { TOrderSchema } from "./order.validation";
 
 // const createOrder1 = async (orderData: TOrder) => {
 //   const { email, productId, quantity } = orderData;
@@ -20,6 +21,9 @@ import { Order } from "./order.model";
 //   });
 
 //   const quantityCount = product.inventory.quantity - quantity;
+// if (quantityCount < 0) {
+//     throw new Error("Insufficient product quantity");
+// }
 //   product.inventory.quantity = quantityCount;
 //   await product.save();
 
@@ -31,7 +35,8 @@ import { Order } from "./order.model";
 const createOrder = async (orderData: TOrder) => {
   const session = await Product.startSession();
 
-  const { email, productId, quantity } = orderData;
+  const validatedData = TOrderSchema.parse(orderData);
+  const { email, productId, quantity } = validatedData;
 
   const product = await Product.findById(productId);
 
