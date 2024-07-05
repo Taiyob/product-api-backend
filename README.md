@@ -1,5 +1,5 @@
 Project Name
-Brief description of your project.
+E-commerce Product Database.
 
 Table of Contents
 Features
