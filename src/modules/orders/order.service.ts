@@ -43,6 +43,11 @@ const createOrder = async (orderData: TOrder) => {
   if (!product) {
     throw new Error("Product not found");
   }
+
+  if (product.inventory.quantity < quantity) {
+    throw new Error("Insufficient quantity available in inventory");
+  }
+
   try {
     session.startTransaction();
 
