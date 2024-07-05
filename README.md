@@ -1,19 +1,19 @@
-Project Name
-Brief description of your project.
+# Project Name
 
-Table of Contents
-Features
-Prerequisites
-Getting Started
-Installation
-Running the Server
-Usage
-API Endpoints
-Testing
-Contributing
-License
-Features
-List key features of your project.
+E-commerce Product Database
+
+## Table of Contents
+
+- Features
+- Prerequisites
+- Getting Started
+- Installation
+- Running the Server
+- Usage
+- API Endpoints
+- Testing
+- Contributing
+- License
 
 Prerequisites
 Outline any software and tools required to run the project:
