@@ -1,6 +1,5 @@
 # Project Name
 
-=======
 E-commerce Product Database.
 
 ## Table of Contents
@@ -14,23 +13,19 @@ E-commerce Product Database.
 - API Endpoints
 - Testing
 - Contributing
-- License
 
-Prerequisites
-Outline any software and tools required to run the project:
+## Prerequisites
 
-Node.js
-npm or yarn
-MongoDB (if applicable)
-Any other dependencies
-Getting Started
-Installation
-bash
-Copy code
+- Node.js
+- npm or yarn
+- MongoDB
+- Any other dependencies
+- bash
 
-# Clone the repository
+## Clone the repository
 
-git clone <repository-url>
+````bash
+git clone https://github.com/Taiyob/product-api-backend.git
 
 # Navigate into the project directory
 
@@ -146,4 +141,4 @@ Copy code
 By following this structured approach, you'll provide comprehensive documentation that helps users understand and effectively use your Node.js and Express project. Adjust and expand sections as needed to suit the complexity and specifics of your application.
 
 
-```
+````
