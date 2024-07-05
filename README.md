@@ -24,10 +24,10 @@ E-commerce Product Database.
 
 ## Clone the repository
 
-`````bash
+```bash
 git clone https://github.com/Taiyob/product-api-backend.git
 
-````bash
+```
 
 # Navigate into the project directory
 
@@ -143,4 +143,4 @@ Copy code
 By following this structured approach, you'll provide comprehensive documentation that helps users understand and effectively use your Node.js and Express project. Adjust and expand sections as needed to suit the complexity and specifics of your application.
 
 
-`````
+```
