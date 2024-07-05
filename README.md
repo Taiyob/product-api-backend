@@ -40,11 +40,18 @@ npm install
 npm run start:dev
 ```
 
-# Start the server
+### Handle Typescript file into JS file
 
-npm start
+```bash
+npm run build
+```
 
-# or
+### Manage file error with eslint
+
+```bash
+npm run lint
+npm run lint:fix
+```
 
 node app.ts
 Usage
