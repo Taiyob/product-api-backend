@@ -1,11 +1,7 @@
-<<<<<<< HEAD
 # Project Name
-=======
-Project Name
-E-commerce Product Database.
->>>>>>> origin/main
 
-E-commerce Product Database
+=======
+E-commerce Product Database.
 
 ## Table of Contents
 
