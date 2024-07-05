@@ -10,5 +10,4 @@ const orderSchema = new Schema<TOrder>({
 
 export const Order = model<TOrder>("Order", orderSchema);
 
-
 //   >>>>>>> origin/main

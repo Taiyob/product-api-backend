@@ -29,16 +29,16 @@ git clone https://github.com/Taiyob/product-api-backend.git
 
 ```
 
-# Navigate into the project directory
+## Navigate into the project directory
 
-cd <project-directory>
+cd &lt;project-directory&gt;
 
-# Install dependencies
+### Install dependencies & run the server
 
+```bash
 npm install
-Running the Server
-bash
-Copy code
+npm run start:dev
+```
 
 # Start the server
 
